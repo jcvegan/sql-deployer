@@ -1,7 +1,9 @@
+using System;
 using System.Collections.Generic;
 
 namespace SqlDeployer.Config
 {
+    [Serializable]
     public class Project
     {
         public string Name { get; set; }
